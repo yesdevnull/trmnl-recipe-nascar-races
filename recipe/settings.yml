@@ -1,0 +1,10 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+polling_url: https://yesdevnull.github.io/trmnl-recipe-nascar-races/nascar_2025.json
+polling_headers: ''
+name: NASCAR Races
+refresh_interval: 360

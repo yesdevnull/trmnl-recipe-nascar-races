@@ -1,0 +1,115 @@
+{%liquid
+
+assign debug = fale
+assign currentDate = "now"
+# assign currentDate = "2025-02-23 09:00"
+assign nowDate = currentDate | date: "%s"
+assign now = currentDate | date: "%s" | plus: trmnl.user.utc_offset
+assign nowYMD = now | date: "%Y-%m-%d"
+
+if debug
+  echo currentDate
+  echo " - "
+  echo now
+  echo " - "
+  echo now | date: "%b %e, %l:%M %p"
+  echo "<br />"
+endif
+
+for r in data.races
+  # Add 6 hours so trmnl will show a race in progress, approximately.
+  assign raceDate = r.dateUtcIso8601 | date: "%s" | plus: trmnl.user.utc_offset # | plus: 21600
+  if debug
+    echo r.date
+    echo " ("
+    echo raceDate
+    echo "); <br />"
+  endif
+  if now > raceDate
+    continue
+  endif
+  assign race = r
+  break
+endfor
+
+assign nascarLogo = "PHN2ZyB3aWR0aD0iOTIwIiBoZWlnaHQ9IjYwMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0wIDU5OS4xIDc1NC4yNyAxLjkzTDkyMCAuNTUgMTY0LjU1LjU3WiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUyNC41NCA1MTYuNjZoMTY2LjE1bDEyMC4xNS00MzMuOUg2NDQuNjlaTTI4NC4yNCA1MTYuNjZoODUuMjdMNDkwLjkgODIuNzZoLTg2LjQ3Wk0xODkuNSA1MTYuNjZoNTguMzVMMzY4IDgyLjc2aC01OS43NVpNMTA4LjQ4IDUxNi42Nmg1OC4zNUwyODcgODIuNzZoLTU5Ljc1Wk0zOTUuNDYgNTE2LjY2aDg1LjI3bDEyMS4zOS00MzMuOWgtODYuNDZaIi8+PC9zdmc+"
+
+assign localRaceDate = race.dateUtcIso8601 | date: "%s" | plus: trmnl.user.utc_offset
+assign localRaceDateYMD = localRaceDate | date: "%Y-%m-%d"
+
+# Add on 1 day so we don't have '0' days until a race
+assign daysToRace = localRaceDate | minus: now | plus: 86400 | divided_by: 86400.0 | floor
+%}
+{% if race %}
+<div class="layout layout--col gap--space-between">
+  <div class="grid grid--cols-1">
+    <div class="item">
+      <div class="meta"></div>
+      <div class="content">
+        <span class="value">{{ race.raceName }}</span>
+      </div>
+    </div>
+  </div>
+  <div class="w-full b-h-gray-5"></div>
+  <div class="grid grid--cols-2">
+    <div class="item">
+      <div class="meta"></div>
+      <div class="content">
+        <span class="value value--small">{{ race.track }}</span>
+        <span class="label label--small">Track</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="meta"></div>
+      <div class="content">
+        <span class="value value--small">
+          {%- if localRaceDateYMD == nowYMD -%}
+            Today, {{ localRaceDate | date: "%l:%M %p" }}
+          {%- else -%}
+            {{ localRaceDate | date: "%b %e" }}
+            {%- if daysToRace > 1 -%}
+              , {{ daysToRace }} day{% if daysToRace != 1 %}s{% endif %} away
+            {%- elsif daysToRace == 1 -%}
+              , Tomorrow
+            {%- endif -%}
+          {%- endif -%}
+        </span>
+        <span class="label label--small">Date</span>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid--cols-3">
+    <div class="item">
+      <div class="meta"></div>
+      <div class="content">
+        <span class="value value--small">{{ race.laps }}</span>
+        <span class="label label--small">Laps</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="meta"></div>
+      <div class="content">
+        <span class="value value--small">{{ race.distanceMiles | floor }} mi</span>
+        <span class="label label--small">Distance &middot; {{ race.trackLengthMiles }} mile lap</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="meta"></div>
+      <div class="content">
+        <span class="value value--small">{{ race.trackType }}</span>
+        <span class="label label--small">Track Type</span>
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="layout layout--row">
+  <span class="title title--small">NASCAR {{ data.metadata.year }} season has ended.</span>
+</div>
+{% endif %}
+
+<div class="title_bar">
+  <img class="image" height="24" src="data:image/svg+xml;base64,{{ nascarLogo }}" />
+  <span class="title">NASCAR Cup Series</span>
+  <span class="instance">{{ data.metadata.year }} Season</span>
+</div>
