@@ -66,15 +66,15 @@ assign daysToRace = localRaceDate | minus: now | plus: 86400 | divided_by: 86400
           {%- if localRaceDateYMD == nowYMD -%}
             Today, {{ localRaceDate | date: "%l:%M %p" }}
           {%- else -%}
-            {{ localRaceDate | date: "%b %e" }}
-            {%- if daysToRace > 1 -%}
-              , {{ daysToRace }} day{% if daysToRace != 1 %}s{% endif %} away
-            {%- elsif daysToRace == 1 -%}
-              , Tomorrow
-            {%- endif -%}
+            {{ localRaceDate | date: "%b %e, %l:%M %p" }}
           {%- endif -%}
         </span>
-        <span class="label label--small">Date</span>
+        <span class="label label--small">Date &middot; 
+          {%- if daysToRace > 1 -%}
+            {{ daysToRace }} day{% if daysToRace != 1 %}s{% endif %} away
+          {%- elsif daysToRace == 1 %}
+            Tomorrow
+          {%- endif -%}</span>
       </div>
     </div>
   </div>
