@@ -81,9 +81,9 @@
                 "trackType": "Road Course",
                 "trackLengthMiles": 2.4,
                 "trackLengthKms": 3.86,
-                "distanceMiles": 163.2,
-                "distanceKms": 262.65,
-                "laps": 68,
+                "distanceMiles": 228,
+                "distanceKms": 366.7,
+                "laps": 95,
                 "playoffs": false,
                 "playoffsMetadata": {
                     "round16": false,
@@ -402,7 +402,7 @@
             },
             {
                 "race": 18,
-                "raceName": "NASCAR Cup Series Race at Pocono",
+                "raceName": "The Great American Getaway 400 Presented by VISITPA.COM",
                 "date": "2025-06-22",
                 "dateUtcIso8601": "+2025-06-22T19:00:00+00:00",
                 "track": "Pocono Raceway",
@@ -776,7 +776,7 @@
             },
             {
                 "race": 35,
-                "raceName": "NASCAR Cup Series Playoff Race at Talladega",
+                "raceName": "YellaWood 500",
                 "date": "2025-10-19",
                 "dateUtcIso8601": "+2025-10-19T19:00:00+00:00",
                 "track": "Talladega Superspeedway",
@@ -798,7 +798,7 @@
             },
             {
                 "race": 36,
-                "raceName": "NASCAR Cup Series Playoff Race at Martinsville",
+                "raceName": "Xfinity 500",
                 "date": "2025-10-26",
                 "dateUtcIso8601": "+2025-10-26T19:00:00+00:00",
                 "track": "Martinsville Speedway",
