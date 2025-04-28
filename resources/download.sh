@@ -25,6 +25,6 @@ FILENAME="source_2025_schedule.json"
 
 # Get the current directory to ensure we save to this location
 CURRENT_DIR="$(pwd)"
-FULL_PATH="${CURRENT_DIR}/${FILENAME}"
+FULL_PATH="${CURRENT_DIR}/resources/${FILENAME}"
 
 sed -nE 's/var scheduledData = (.+);/\1/p' "${TEMP_FILE}" | jq ".response" > "${FULL_PATH}"
