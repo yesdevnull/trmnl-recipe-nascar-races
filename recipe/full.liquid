@@ -1,11 +1,16 @@
 {%liquid
 
-assign debug = fale
+# echo "<pre>"
+
+assign debug = false
 assign currentDate = "now"
-# assign currentDate = "2025-02-16 17:00"
+# assign currentDate = "2025-02-22 15:00"
 assign nowDate = currentDate | date: "%s"
 assign now = currentDate | date: "%s" | plus: trmnl.user.utc_offset
+assign nowUTC = currentDate | date: "%s"
 assign nowYMD = now | date: "%Y-%m-%d"
+
+# echo nowUTC | date: "%a, %e %b %Y %H:%M:%S %z" | append: "<br />"
 
 if debug
   echo currentDate
@@ -34,11 +39,20 @@ endfor
 
 assign nascarLogo = "PHN2ZyB3aWR0aD0iOTIwIiBoZWlnaHQ9IjYwMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0wIDU5OS4xIDc1NC4yNyAxLjkzTDkyMCAuNTUgMTY0LjU1LjU3WiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUyNC41NCA1MTYuNjZoMTY2LjE1bDEyMC4xNS00MzMuOUg2NDQuNjlaTTI4NC4yNCA1MTYuNjZoODUuMjdMNDkwLjkgODIuNzZoLTg2LjQ3Wk0xODkuNSA1MTYuNjZoNTguMzVMMzY4IDgyLjc2aC01OS43NVpNMTA4LjQ4IDUxNi42Nmg1OC4zNUwyODcgODIuNzZoLTU5Ljc1Wk0zOTUuNDYgNTE2LjY2aDg1LjI3bDEyMS4zOS00MzMuOWgtODYuNDZaIi8+PC9zdmc+"
 
+# echo race.dateUtcIso8601 | date: "%a, %e %b %Y %H:%M:%S %z" | append: "<br />"
+assign raceDateUTC = race.dateUtcIso8601 | date: "%s"
 assign localRaceDate = race.dateUtcIso8601 | date: "%s" | plus: trmnl.user.utc_offset
 assign localRaceDateYMD = localRaceDate | date: "%Y-%m-%d"
 
-# Add on 1 day so we don't have '0' days until a race
-assign daysToRace = localRaceDate | minus: now | plus: 86400 | divided_by: 86400.0 | floor
+assign startOfRaceDay = localRaceDateYMD | append: " 00:00"
+# echo startOfRaceDay | append: "<br />"
+# echo startOfRaceDay | date: "%s" | append: "<br />"
+# echo startOfRaceDay | date: "%s" | minus: nowUTC | append: "<br />"
+# echo startOfRaceDay | date: "%a, %e %b %Y %H:%M:%S %z"
+
+# echo "</pre>"
+
+assign daysToRace = startOfRaceDay | date: "%s" | minus: nowUTC | divided_by: 86400 | floor
 %}
 {% if race %}
 <div class="layout layout--col gap--space-between">
@@ -71,7 +85,7 @@ assign daysToRace = localRaceDate | minus: now | plus: 86400 | divided_by: 86400
           {%- endif -%}
         </span>
         <span class="label">Date &middot; 
-          {%- if daysToRace > 1 -%}
+          {%- if daysToRace > 1 %}
             {{ daysToRace }} day{% if daysToRace != 1 %}s{% endif %} away
           {%- elsif daysToRace == 1 %}
             Tomorrow
