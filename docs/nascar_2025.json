@@ -6,7 +6,7 @@
         "races": [
             {
                 "race": 0,
-                "raceName": "Cook Out Clash at Bowman Gray",
+                "raceName": "Cook Out Clash at Bowman Gray Stadium",
                 "date": "2025-02-02",
                 "dateUtcIso8601": "+2025-02-02T19:00:00+00:00",
                 "track": "Bowman Gray Stadium",
@@ -28,7 +28,7 @@
             },
             {
                 "race": 1,
-                "raceName": "Daytona 500",
+                "raceName": "DAYTONA 500",
                 "date": "2025-02-16",
                 "dateUtcIso8601": "+2025-02-16T18:30:00+00:00",
                 "track": "Daytona International Speedway",
@@ -116,7 +116,7 @@
             },
             {
                 "race": 5,
-                "raceName": "Pennzoil 400",
+                "raceName": "Pennzoil 400 presented by Jiffy Lube",
                 "date": "2025-03-16",
                 "dateUtcIso8601": "+2025-03-16T20:30:00+00:00",
                 "track": "Las Vegas Motor Speedway",
@@ -336,7 +336,7 @@
             },
             {
                 "race": 15,
-                "raceName": "NASCAR Cup Series Race at Nashville",
+                "raceName": "Cracker Barrel 400",
                 "date": "2025-06-01",
                 "dateUtcIso8601": "+2025-06-02T00:00:00+00:00",
                 "track": "Nashville Superspeedway",
@@ -490,7 +490,7 @@
             },
             {
                 "race": 22,
-                "raceName": "Autotrader EchoPark Automotive 400",
+                "raceName": "AutoTrader EchoPark Automotive 400",
                 "date": "2025-07-20",
                 "dateUtcIso8601": "+2025-07-20T19:00:00+00:00",
                 "track": "Dover Motor Speedway",
@@ -622,7 +622,7 @@
             },
             {
                 "race": 28,
-                "raceName": "Southern 500",
+                "raceName": "Cook Out Southern 500",
                 "date": "2025-08-31",
                 "dateUtcIso8601": "+2025-08-31T23:00:00+00:00",
                 "track": "Darlington Raceway",
