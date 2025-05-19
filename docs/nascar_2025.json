@@ -301,9 +301,9 @@
                 "trackType": "Short Track",
                 "trackLengthMiles": 0.625,
                 "trackLengthKms": 1.006,
-                "distanceMiles": 0,
-                "distanceKms": 0,
-                "laps": 0,
+                "distanceMiles": 156.25,
+                "distanceKms": 251.5,
+                "laps": 250,
                 "playoffs": false,
                 "playoffsMetadata": {
                     "round16": false,
