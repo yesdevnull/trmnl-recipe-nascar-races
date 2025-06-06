@@ -128,10 +128,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-11-02T15:00:00-0500",
-    "Event_Time_Unix": "1762113600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1762113600"
   },
   {
     "Race_Name": "Xfinity 500",
@@ -262,10 +259,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-10-26T14:00:00-0400",
-    "Event_Time_Unix": "1761501600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1761501600"
   },
   {
     "Race_Name": "YellaWood 500",
@@ -396,10 +390,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-10-19T14:00:00-0400",
-    "Event_Time_Unix": "1760896800",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1760896800"
   },
   {
     "Race_Name": "South Point 400",
@@ -530,10 +521,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-10-12T17:30:00-0400",
-    "Event_Time_Unix": "1760304600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1760304600"
   },
   {
     "Race_Name": "Bank of America ROVAL 400",
@@ -664,10 +652,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-10-05T15:00:00-0400",
-    "Event_Time_Unix": "1759690800",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1759690800"
   },
   {
     "Race_Name": "Hollywood Casino 400 ",
@@ -798,10 +783,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-09-28T15:00:00-0400",
-    "Event_Time_Unix": "1759086000",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1759086000"
   },
   {
     "Race_Name": "NASCAR Cup Series Race at New Hampshire",
@@ -932,10 +914,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-09-21T14:00:00-0400",
-    "Event_Time_Unix": "1758477600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1758477600"
   },
   {
     "Race_Name": "Bass Pro Shops Night Race",
@@ -1066,10 +1045,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-09-13T19:30:00-0400",
-    "Event_Time_Unix": "1757806200",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1757806200"
   },
   {
     "Race_Name": "Enjoy Illinois 300",
@@ -1200,10 +1176,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-09-07T15:00:00-0400",
-    "Event_Time_Unix": "1757271600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1757271600"
   },
   {
     "Race_Name": "Cook Out Southern 500",
@@ -1334,10 +1307,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-08-31T18:00:00-0400",
-    "Event_Time_Unix": "1756677600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1756677600"
   },
   {
     "Race_Name": "Coke Zero Sugar 400",
@@ -1468,10 +1438,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-08-23T19:30:00-0400",
-    "Event_Time_Unix": "1755991800",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1755991800"
   },
   {
     "Race_Name": "Cook Out 400",
@@ -1602,10 +1569,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-08-16T19:30:00-0400",
-    "Event_Time_Unix": "1755387000",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1755387000"
   },
   {
     "Race_Name": "Go Bowling at The Glen",
@@ -1736,10 +1700,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-08-10T14:00:00-0400",
-    "Event_Time_Unix": "1754848800",
-    "Event_Team_Sites_Presented_By": "Cadbury Mini Eggs",
-    "Event_Team_Sites_Laps": "100",
-    "Event_Team_Sites_Distance": "2.5 Miles"
+    "Event_Time_Unix": "1754848800"
   },
   {
     "Race_Name": "Iowa Corn 350 Powered by Ethanol",
@@ -1870,10 +1831,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-08-03T15:30:00-0400",
-    "Event_Time_Unix": "1754249400",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1754249400"
   },
   {
     "Race_Name": "Brickyard 400 Presented by PPG",
@@ -2004,10 +1962,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-07-27T14:00:00-0400",
-    "Event_Time_Unix": "1753639200",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1753639200"
   },
   {
     "Race_Name": "AutoTrader EchoPark Automotive 400",
@@ -2138,10 +2093,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-07-20T14:00:00-0400",
-    "Event_Time_Unix": "1753034400",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1753034400"
   },
   {
     "Race_Name": "Toyota / Save Mart 350",
@@ -2272,10 +2224,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-07-13T15:30:00-0400",
-    "Event_Time_Unix": "1752435000",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1752435000"
   },
   {
     "Race_Name": "Grant Park 165",
@@ -2406,10 +2355,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-07-06T14:00:00-0400",
-    "Event_Time_Unix": "1751824800",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1751824800"
   },
   {
     "Race_Name": "Quaker State 400 Available at Walmart",
@@ -2423,7 +2369,7 @@
     "Track_Name": "Atlanta Motor Speedway",
     "Alt_Track_Name": "",
     "Track_Page_URL": "http://www.atlantamotorspeedway.com/",
-    "Track_Image_URL": "https://www.nascar.com/wp-content/uploads/sites/7/2022/03/14/Atlanta-Motor-Speedway-350x144.png",
+    "Track_Image_URL": "https://www.nascar.com/wp-content/uploads/sites/7/2025/06/03/eps-primary-onlight-350x290.png",
     "Track_Background_Image_URL": "https://www.nascar.com/wp-content/uploads/sites/7/2023/03/19/1474656134-scaled.jpg",
     "Track_Mobile_Image_URL": "",
     "Race_Date": "2025-06-28T19:00:00-0400",
@@ -2540,10 +2486,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-06-28T19:00:00-0400",
-    "Event_Time_Unix": "1751151600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1751151600"
   },
   {
     "Race_Name": "The Great American Getaway 400 Presented by VISITPA.COM",
@@ -2663,7 +2606,7 @@
     "Practice_3_TV": "",
     "Practice_3_Radio": "",
     "Practice_3_URL": "",
-    "Qualifying_Date": "2025-06-21T13:40:00-0400",
+    "Qualifying_Date": "2025-06-21T13:45:00-0400",
     "Qualifying_TV": "",
     "Qualifying_Radio": "",
     "Qualifying_URL": "",
@@ -2674,17 +2617,14 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-06-22T14:00:00-0400",
-    "Event_Time_Unix": "1750615200",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1750615200"
   },
   {
     "Race_Name": "Viva Mexico 250",
     "Race_Id": 5552,
     "Race_State": "",
     "Race_Logo": "",
-    "Race_Logo_Medium": "https://www.nascar.com/wp-content/uploads/sites/7/2023/10/03/NCS_RGB-1-300x145.png",
+    "Race_Logo_Medium": "https://www.nascar.com/wp-content/uploads/sites/7/2025/05/28/NASCAR_MCW_ETG_Races_NCS-300x260.png",
     "Series_Id": "1",
     "Series_Logo": "https://www.nascar.com/wp-content/uploads/sites/7/2023/05/10/nascar_cup_series_logo.svg",
     "Track_Id": 75,
@@ -2808,13 +2748,10 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-06-15T15:00:00-0400",
-    "Event_Time_Unix": "1750014000",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1750014000"
   },
   {
-    "Race_Name": "Firekeepers Casino 400",
+    "Race_Name": "FireKeepers Casino 400",
     "Race_Id": 5573,
     "Race_State": "",
     "Race_Logo": "",
@@ -2864,7 +2801,7 @@
     "Race_Qualifying_Logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/08/27/Amazon_Prime-Blue-672x372.png",
     "Race_Qualifying_Logo2": "https://www.nascar.com/wp-content/uploads/sites/7/2024/08/27/Amazon_Prime-Blue-59x35.png",
     "Race_Qualifying_Logo_Dark": "https://www.nascar.com/wp-content/uploads/sites/7/2025/01/31/Prime_Video.png",
-    "Race_Entry_List": "",
+    "Race_Entry_List": "https://www.nascar.com/news-media/2025/06/02/2025-nascar-cup-series-entry-list-for-michigan-international-speedway/",
     "Race_Starting_Lineup": "",
     "Race_URL": "https://www.nascar.com/live-results/nascar-cup-series/firekeepers-casino-400/",
     "Race_Start": "2:00 PM",
@@ -2886,7 +2823,7 @@
     "Driver_Pos2_DriverPageURL": "",
     "Driver_Pos3_DriverPageURL": "",
     "Race_Recap": "",
-    "News_Hub": "",
+    "News_Hub": "https://www.nascar.com/2025/firekeepers-casino-400",
     "Previous_Winner": "4065",
     "Previous_Winner_Result_URL": "https://www.nascar.com/results/racecenter/2024/nascar-cup-series/michigan-international-speedway/stn/results",
     "Previous_Winner_Badge_Number": "",
@@ -2942,10 +2879,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-06-08T14:00:00-0400",
-    "Event_Time_Unix": "1749405600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1749405600"
   },
   {
     "Race_Name": "Cracker Barrel 400",
@@ -2998,12 +2932,12 @@
     "Race_Qualifying_Logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/08/27/Amazon_Prime-Blue-672x372.png",
     "Race_Qualifying_Logo2": "https://www.nascar.com/wp-content/uploads/sites/7/2024/08/27/Amazon_Prime-Blue-59x35.png",
     "Race_Qualifying_Logo_Dark": "https://www.nascar.com/wp-content/uploads/sites/7/2025/01/31/Prime_Video.png",
-    "Race_Entry_List": "",
+    "Race_Entry_List": "https://www.nascar.com/news-media/2025/05/27/2025-nascar-cup-series-entry-list-for-nashville-superspeedway/",
     "Race_Starting_Lineup": "",
     "Race_URL": "https://www.nascar.com/live-results/nascar-cup-series/cracker-barrel-400/",
     "Race_Start": "7:00 PM",
     "Race_End": "",
-    "Race_Result": "",
+    "Race_Result": "https://www.nascar.com/live-results/nascar-cup-series/cracker-barrel-400/",
     "Driver_Pos1_DriverFirstName": "",
     "Driver_Pos1_DriverLastName": "",
     "Driver_Pos2_DriverFirstName": "",
@@ -3019,7 +2953,7 @@
     "Driver_Pos1_DriverPageURL": "",
     "Driver_Pos2_DriverPageURL": "",
     "Driver_Pos3_DriverPageURL": "",
-    "Race_Recap": "",
+    "Race_Recap": "https://www.nascar.com/news-media/2025/06/01/cup-series-2025-nashville-superspeedway-race-recap/",
     "News_Hub": "https://www.nascar.com/2025/cracker-barrel-400",
     "Previous_Winner": "3859",
     "Previous_Winner_Result_URL": "https://www.nascar.com/results/racecenter/2024/nascar-cup-series/nashville-superspeedway/stn/results",
@@ -3029,13 +2963,13 @@
     "Previous_Winner_Firesuit": "https://www.nascar.com/wp-content/uploads/sites/7/2025/02/20/Joey-Logano-Cropped-Version-Dimensions-179x290.png",
     "Previous_Winner_Badge": "https://www.nascar.com/wp-content/uploads/sites/7/2025/01/30/22@10x-350x290.png",
     "Previous_Winner_Page": "https://www.nascar.com/drivers/joey-logano",
-    "Current_Winner_DriverID": "",
-    "Current_Winner_Name": "",
-    "Current_Winner_Headshot": "",
-    "Current_Winner_Firesuit": "",
-    "Current_Winner_Badge": "",
-    "Current_Winner_Page": "",
-    "Current_Winner_Car_Number": "",
+    "Current_Winner_DriverID": "4023",
+    "Current_Winner_Name": "Ryan Blaney",
+    "Current_Winner_Headshot": "https://www.nascar.com/wp-content/uploads/sites/7/2025/01/30/Ryan-Blaney-Helmet_resized-342x290.png",
+    "Current_Winner_Firesuit": "https://www.nascar.com/wp-content/uploads/sites/7/2025/02/20/Ryan-Blaney-prop-dimensions-214x290.png",
+    "Current_Winner_Badge": "https://www.nascar.com/wp-content/uploads/sites/7/2025/01/30/12@10x-350x290.png",
+    "Current_Winner_Page": "https://www.nascar.com/drivers/ryan-blaney",
+    "Current_Winner_Car_Number": "12",
     "Playoff_Round": "",
     "Race_TBD": "",
     "VIP_Tickets_URL": "",
@@ -3070,16 +3004,13 @@
     "Qualifying_Radio": "",
     "Qualifying_URL": "",
     "Actual_Laps": 300,
-    "Average_Speed": 0,
+    "Average_Speed": 129.068,
     "Race_Season": 2025,
     "Scheduled_Laps": 300,
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-06-01T19:00:00-0400",
-    "Event_Time_Unix": "1748818800",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1748818800"
   },
   {
     "Race_Name": "Coca-Cola 600",
@@ -3210,10 +3141,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-05-25T18:00:00-0400",
-    "Event_Time_Unix": "1748210400",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1748210400"
   },
   {
     "Race_Name": "NASCAR All-Star Race",
@@ -3344,10 +3272,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-05-18T20:00:00-0400",
-    "Event_Time_Unix": "1747612800",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1747612800"
   },
   {
     "Race_Name": "NASCAR All-Star Open",
@@ -3478,10 +3403,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-05-18T17:00:00-0400",
-    "Event_Time_Unix": "1747602000",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1747602000"
   },
   {
     "Race_Name": "AdventHealth 400",
@@ -3612,10 +3534,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-05-11T15:00:00-0400",
-    "Event_Time_Unix": "1746990000",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1746990000"
   },
   {
     "Race_Name": "Würth 400 presented by LIQUI MOLY",
@@ -3746,10 +3665,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-05-04T15:30:00-0400",
-    "Event_Time_Unix": "1746387000",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1746387000"
   },
   {
     "Race_Name": "Jack Link's 500",
@@ -3880,10 +3796,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-04-27T15:00:00-0400",
-    "Event_Time_Unix": "1745780400",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1745780400"
   },
   {
     "Race_Name": "Food City 500",
@@ -4014,10 +3927,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-04-13T15:00:00-0400",
-    "Event_Time_Unix": "1744570800",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1744570800"
   },
   {
     "Race_Name": "Goodyear 400",
@@ -4148,10 +4058,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-04-06T15:00:00-0400",
-    "Event_Time_Unix": "1743966000",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1743966000"
   },
   {
     "Race_Name": "Cook Out 400",
@@ -4282,10 +4189,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-03-30T15:00:00-0400",
-    "Event_Time_Unix": "1743361200",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1743361200"
   },
   {
     "Race_Name": "Straight Talk Wireless 400",
@@ -4416,10 +4320,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-03-23T15:00:00-0400",
-    "Event_Time_Unix": "1742756400",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1742756400"
   },
   {
     "Race_Name": "Pennzoil 400 presented by Jiffy Lube",
@@ -4550,10 +4451,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-03-16T15:30:00-0400",
-    "Event_Time_Unix": "1742153400",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1742153400"
   },
   {
     "Race_Name": "Shriners Children's 500",
@@ -4684,10 +4582,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-03-09T15:30:00-0400",
-    "Event_Time_Unix": "1741548600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1741548600"
   },
   {
     "Race_Name": "EchoPark Automotive Grand Prix",
@@ -4818,10 +4713,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-03-02T15:30:00-0500",
-    "Event_Time_Unix": "1740947400",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1740947400"
   },
   {
     "Race_Name": "Ambetter Health 400",
@@ -4835,7 +4727,7 @@
     "Track_Name": "Atlanta Motor Speedway",
     "Alt_Track_Name": "",
     "Track_Page_URL": "http://www.atlantamotorspeedway.com/",
-    "Track_Image_URL": "https://www.nascar.com/wp-content/uploads/sites/7/2022/03/14/Atlanta-Motor-Speedway-350x144.png",
+    "Track_Image_URL": "https://www.nascar.com/wp-content/uploads/sites/7/2025/06/03/eps-primary-onlight-350x290.png",
     "Track_Background_Image_URL": "https://www.nascar.com/wp-content/uploads/sites/7/2023/03/19/1474656134-scaled.jpg",
     "Track_Mobile_Image_URL": "",
     "Race_Date": "2025-02-23T15:00:00-0500",
@@ -4952,10 +4844,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-02-23T15:00:00-0500",
-    "Event_Time_Unix": "1740340800",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1740340800"
   },
   {
     "Race_Name": "DAYTONA 500",
@@ -5086,10 +4975,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-02-16T13:30:00-0500",
-    "Event_Time_Unix": "1739730600",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1739730600"
   },
   {
     "Race_Name": "Duel 2 at DAYTONA",
@@ -5220,10 +5106,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-02-13T20:45:00-0500",
-    "Event_Time_Unix": "1739497500",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1739497500"
   },
   {
     "Race_Name": "Duel 1 at DAYTONA",
@@ -5354,10 +5237,7 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-02-13T19:00:00-0500",
-    "Event_Time_Unix": "1739491200",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1739491200"
   },
   {
     "Race_Name": "Cook Out Clash at Bowman Gray Stadium",
@@ -5488,9 +5368,6 @@
     "Practice": [],
     "Qualifying": [],
     "Event_Time_Est": "2025-02-02T20:00:00-0500",
-    "Event_Time_Unix": "1738544400",
-    "Event_Team_Sites_Presented_By": "",
-    "Event_Team_Sites_Laps": "",
-    "Event_Team_Sites_Distance": ""
+    "Event_Time_Unix": "1738544400"
   }
 ]
